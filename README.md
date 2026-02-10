@@ -5,7 +5,7 @@
 ## Descripción
 Sistema de gestion de pedidos para restaurante desarrollado en Java. Permite registrar pedidos de clientes con hasta 5 articulos, calcular el precio total automaticamente y gestionar el estado del pedido.
 
-##Caracteristicas
+## Caracteristicas
 - Generación automática de IDs únicos para cada pedido
 - Gestión de hasta 5 artículos por pedido
 - Cálculo automático del precio total
