@@ -5,7 +5,7 @@ public class Main {
 
         //Escenario 1 Pedido normal
         System.out.println("Escenario 1 Pedido Normal");
-        Pedido pedido1 = new Pedido("Ana Garcia");
+        Pedido pedido1 = new Pedido("Izan Garcia");
         pedido1.agregarArticulo("Pizza Margarita", 2, 8.50);
         pedido1.agregarArticulo("Ensalada Cesar", 1, 6.00);
         pedido1.agregarArticulo("Coca-Cola", 2, 2.50);
@@ -17,7 +17,7 @@ public class Main {
         //Escenario 2 Intentar agregar mas de 5 articulos
         System.out.println("");
         System.out.println("Escenario 2 Limite de Articulos");
-        Pedido pedido2 = new Pedido("Carlos Ruiz");
+        Pedido pedido2 = new Pedido("Jose Ruiz");
         pedido2.agregarArticulo("Hamburguesa", 1, 9.00);
         pedido2.agregarArticulo("Papas Fritas", 1, 3.50);
         pedido2.agregarArticulo("Nuggets", 1, 5.00);
@@ -29,7 +29,7 @@ public class Main {
         //Escenario 3 Intentar retroceder estado
         System.out.println("");
         System.out.println("Escenario 3 Validacion de Estado");
-        Pedido pedido3 = new Pedido("Maria Lopez");
+        Pedido pedido3 = new Pedido("Ivan Hernandez");
         pedido3.agregarArticulo("Sushi Roll", 3, 12.00);
         pedido3.cambiarEstado(EstadoPedido.LISTO_PARA_ENTREGAR);
         pedido3.cambiarEstado(EstadoPedido.ENTREGADO);
@@ -47,7 +47,7 @@ public class Main {
         //Escenario 5 Validaciones
         System.out.println("");
         System.out.println("Escenario 5 Validaciones");
-        Pedido pedido5 = new Pedido("Laura Martinez");
+        Pedido pedido5 = new Pedido("Laura Perez");
         pedido5.agregarArticulo("Paella", 0, 15.00);
         pedido5.agregarArticulo("Sangria", 2, -5.00);
         pedido5.agregarArticulo("Tapas", 4, 3.50);
